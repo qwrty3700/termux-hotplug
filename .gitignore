@@ -1,0 +1,4 @@
+vm.qcow2
+usbredirect
+qemu-monitor.sock
+qmp.sock
