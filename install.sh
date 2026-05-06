@@ -36,7 +36,8 @@ info "Checking Termux API..."
 if command -v termux-usb &>/dev/null; then
     info "Termux API is available (termux-usb found)"
 else
-    error "Termux API not found. Install Termux:API from F-Droid: https://f-droid.org/packages/com.termux.api/"
+    pkg install termux-api
+    info "termux-api installed"
 fi
 
 # ── 3. socat (QMP socket communication) ────────────────────────────
